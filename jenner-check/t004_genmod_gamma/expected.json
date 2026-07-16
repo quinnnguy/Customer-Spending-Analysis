@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-16T19:37:00Z",
+  "_captured_run_id": "r_42bc9d41ec6b40418683906ac24533bc",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 35 rows from DATALINES.",
+    "NOTE: Response Variable: FROZEN",
+    "NOTE: Distribution: GAMMA",
+    "NOTE: OUTPUT dataset 'GAMMARES' created with 35 observations."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

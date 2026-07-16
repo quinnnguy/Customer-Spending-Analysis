@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-16T19:35:00Z",
+  "_captured_run_id": "r_5375f65723d2470f88d6311fb81e8cd9",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 35 rows from DATALINES.",
+    "NOTE: Wrote wholesale (35 rows, 8 columns).",
+    "NOTE: PROC DISCRIM data=wholesale method=Normal pool=Test",
+    "NOTE: PROC DISCRIM: 35 observations, 6 variables, method=Normal, pool=Test"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

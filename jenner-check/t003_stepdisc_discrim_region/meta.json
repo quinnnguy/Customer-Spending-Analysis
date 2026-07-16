@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_stepdisc_discrim_region",
+  "source_file": "WholesaleCustomerSpendingAnalysis-Project.sas",
+  "source_blob_sha": "6fd33cb45c5a73a9bee9b8ad2163947885a94029",
+  "source_commit": "c9bbf930c345901ccc875c85d1476be1fb639612",
+  "notes": "Task 3 of the original script: PROC STEPDISC then PROC DISCRIM (method=normal, pool=test, proportional priors) testing whether the six spending categories separate the three Region groups. Same inline 35-row sample as t001/t002. Two edits from the source: (1) `var fresh--delicassen;` (double-dash positional range) spelled out as the explicit variable list, since Jenner's PROC STEPDISC and PROC DISCRIM parsers don't yet resolve that shorthand -- filed as regression tests (404617, and sibling 404283 already merged) rather than worked around silently; (2) the `crossvalidate` option and the trailing `ods select` line were dropped (crossvalidate is unstable on this small a sample; a bare `ods select ChiSq MultStat;` inside PROC DISCRIM currently fails to parse -- logged for follow-up, not filed as a regression test this run since PR bundle time was prioritized). Method/pool/priors options otherwise unchanged."
+}

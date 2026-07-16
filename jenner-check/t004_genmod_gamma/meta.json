@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_genmod_gamma",
+  "source_file": "WholesaleCustomerSpendingAnalysis-Project.sas",
+  "source_blob_sha": "6fd33cb45c5a73a9bee9b8ad2163947885a94029",
+  "source_commit": "c9bbf930c345901ccc875c85d1476be1fb639612",
+  "notes": "Task 4 of the original script (its final, refit GENMOD call): PROC GENMOD with dist=gamma link=log modeling Frozen spending from Fresh, Milk, Grocery, Detergents_Paper, and Delicassen, with TYPE1/TYPE3 analysis and an OUTPUT statement for predicted values and residuals. Same inline 35-row sample as t001-t003. The plots= option and the Cook's-distance-based refit chain (three sequential GENMOD calls filtering on cooksd) were trimmed to the final model specification, which is the technique the original author converged on."
+}

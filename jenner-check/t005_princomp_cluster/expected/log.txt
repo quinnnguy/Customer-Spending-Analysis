@@ -1,0 +1,40 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260715T062217Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA wholesale
+
+NOTE: Processing inline DATALINES (35 lines)
+
+NOTE: Read 35 rows from DATALINES.
+NOTE: Wrote wholesale (35 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINCOMP data=wholesale
+
+NOTE: Using Python sklearn version 1.9.0
+NOTE: ODS plot written: princomp_scores.spec.json
+NOTE: PROC PRINCOMP ODS Graphics generated.
+NOTE: PROC PRINCOMP completed.
+NOTE: PROC CLUSTER data=pcoutCorr method=Average
+
+NOTE: Using native Rust for hierarchical clustering
+NOTE: ODS plot written: cluster_dendrogram.spec.json
+NOTE: PROC CLUSTER ODS Graphics generated.
+NOTE: PROC CLUSTER: 35 observations, 6 variables clustered using Average method
+NOTE: PROC TREE data=sale_avg
+
+NOTE: PROC TREE: Extracted 3 clusters using Python/scipy
+NOTE: PROC SORT data=clusters
+
+NOTE: Read 35 rows from clusters.
+NOTE: Wrote clusters (35 rows, 12 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_cluster_channel.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_cluster_region.spec.json
+NOTE: PROC FREQ statement used.

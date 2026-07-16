@@ -1,0 +1,61 @@
+                                     
+---------------------------  --------
+Number of Observations Read        35
+Number of Observations Used        35
+
+            Response Profile            
+   Probability modeled is channel='2'   
+
+Ordered Value  channel   Total Frequency
+-------------  --------  ---------------
+            1  1                      24
+            2  2                      11
+
+  Class Level Information   
+
+Class       Levels  Values  
+--------  --------  --------
+channel          2  1 2     
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: channel
+
+Criterion     Value
+---------  --------
+AIC          28.119
+-2 Log L     22.119
+SC           32.785
+
+            Analysis of Maximum Likelihood Estimates            
+
+Parameter  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+---------  --------  --------------  ---------------  ----------
+Intercept   -1.4311          1.4434           0.9830      0.3215
+grocery      0.0322          0.0156           4.2330      0.0396
+frozen      -0.1054          0.0725           2.1107      0.1463
+
+                     Odds Ratio Estimates                     
+
+Effect    Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+--------  --------------  -----------------  -----------------
+grocery            1.033              1.002              1.065
+frozen             0.900              0.781              1.037
+
+     Summary of Stepwise Selection      
+
+    Step  Effect    Variable  Pr > ChiSq
+--------  --------  --------  ----------
+       1  Entered   grocery       0.0148
+       2  Entered   frozen        0.1463
+
+Variables Selected
+
+Variable
+--------
+grocery 
+frozen  
+

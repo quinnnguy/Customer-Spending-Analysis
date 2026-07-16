@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-16T19:22:00Z",
+  "_captured_run_id": "r_d0e945f23daf45dd9b8771e8e09929a1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 35 rows from DATALINES.",
+    "NOTE: Wrote wholesale (35 rows, 8 columns).",
+    "NOTE: PROC LOGISTIC completed. Results written to: ./ods_output/logistic_results.spec.json"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

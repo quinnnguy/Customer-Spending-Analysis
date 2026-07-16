@@ -1,0 +1,49 @@
+      The GENMOD Procedure      
+       Model Information        
+
+Item                       Value
+----------------------  --------
+Response Variable         frozen
+Distribution               gamma
+Link Function                log
+Number of Observations        35
+
+     Analysis of Maximum Likelihood Parameter Estimates      
+
+Parameter         Estimate  Std Error  Chi-Square  Pr > ChiSq
+----------------  --------  ---------  ----------  ----------
+(Intercept)         3.2114     0.4304     55.6818      <.0001
+fresh               0.0017     0.0021      0.6461      0.4215
+milk                0.0080     0.0059      1.8260      0.1766
+grocery            -0.0073     0.0055      1.7390      0.1873
+detergents_paper    0.0016     0.0069      0.0573      0.8108
+delicassen          0.0021     0.0183      0.0126      0.9106
+
+Criteria for Assessing Goodness of Fit
+
+Criterion           Value
+--------------  ---------
+Deviance          30.6602
+Log Likelihood  -153.5330
+AIC              321.0661
+BIC              331.9535
+
+        LR Statistics For Type 1 Analysis         
+
+Source                  DF  Chi-Square  Pr > ChiSq
+----------------  --------  ----------  ----------
+fresh                    1      0.0497      0.8383
+milk                     1      0.4606      0.5344
+grocery                  1      2.9243      0.1174
+detergents_paper         1      0.0458      0.8446
+delicassen               1      0.0111      0.9232
+
+        LR Statistics For Type 3 Analysis         
+
+Source                  DF  Chi-Square  Pr > ChiSq
+----------------  --------  ----------  ----------
+fresh                    1      0.6461      0.4215
+milk                     1      1.8260      0.1766
+grocery                  1      1.7390      0.1873
+detergents_paper         1      0.0573      0.8108
+delicassen               1      0.0126      0.9106

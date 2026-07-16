@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_univariate_normality",
+  "source_file": "WholesaleCustomerSpendingAnalysis-Project.sas",
+  "source_blob_sha": "6fd33cb45c5a73a9bee9b8ad2163947885a94029",
+  "source_commit": "c9bbf930c345901ccc875c85d1476be1fb639612",
+  "notes": "Appendix Task 1 of the original script: PROC UNIVARIATE with CLASS channel and the NORMAL option, testing Shapiro-Wilk/Kolmogorov-Smirnov/Anderson-Darling/Cramer-von Mises normality for the spending categories (the original script found all p<0.0001, right-skewed). Same inline 35-row sample as t001-t005. Downsized from the source's 6 variables + HISTOGRAM/normal curve fitting to 2 variables (fresh, grocery) with no HISTOGRAM statement, after the 6-variable HISTOGRAM version twice exceeded the hosted API's 30-second anonymous-tier execution limit (HTTP 408) and a 3-variable version ran close to the limit (20.3s) on one attempt -- the normality-test technique itself is unchanged, just scoped down so it completes comfortably (~14s) within the time budget."
+}

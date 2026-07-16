@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-16T19:40:00Z",
+  "_captured_run_id": "r_9582e6c201054553bc46fcf7b8e2b988",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 35 rows from DATALINES.",
+    "NOTE: PROC CLUSTER: 35 observations, 6 variables clustered using Average method",
+    "NOTE: PROC TREE: Extracted 3 clusters using Python/scipy",
+    "NOTE: PROC FREQ statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

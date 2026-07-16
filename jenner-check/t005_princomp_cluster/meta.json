@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_princomp_cluster",
+  "source_file": "WholesaleCustomerSpendingAnalysis-Project.sas",
+  "source_blob_sha": "6fd33cb45c5a73a9bee9b8ad2163947885a94029",
+  "source_commit": "c9bbf930c345901ccc875c85d1476be1fb639612",
+  "notes": "Task 5 of the original script: PROC PRINCOMP (2 components) feeding PROC CLUSTER (average linkage) and PROC TREE (3-cluster extraction), then PROC SORT/PROC MEANS by cluster and two PROC FREQ cross-tabs (cluster*channel, cluster*region) -- the segmentation analysis the README highlights. Same inline 35-row sample as t001-t004. `var fresh--delicassen;` spelled out as the explicit list for the same reason as t003. The appendix's duplicate PRINCOMP call (kept only for its own ODS select block) was dropped as redundant with the PRINCOMP already run here."
+}

@@ -1,0 +1,299 @@
+                        channel=1
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  fresh
+
+                                                        Moments
+
+N                                 24    Sum Weights                       24
+Mean                      145.324167    Sum Observations         3487.780000
+Std Deviation             104.618785    Variance                10945.090243
+Skewness                    1.026455    Kurtosis                    0.529273
+Uncorrected SS         758595.797600    Corrected SS           251737.075583
+Coeff Variation            71.989943    Std Error Mean             21.355220
+
+           Basic Statistical Measures            
+
+Location              Variability                
+--------  ----------  -------------  ------------
+Mean      145.324167  Std Deviation    104.618785
+Median    103.475000  Variance       10945.090243
+Mode               .  Range            397.390000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       30.470000
+1%           30.470000
+5%           41.550000
+10%          46.250000
+25% Q1       61.120000
+50% Median  103.475000
+75% Q3      214.850000
+90%         279.010000
+95%         296.350000
+99%         427.860000
+100% Max    427.860000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     30.470000  Value     264.000000
+Value     41.550000  Value     265.390000
+Value     46.250000  Value     279.010000
+Value     52.640000  Value     296.350000
+Value     59.090000  Value     427.860000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.876205975  0.006976509
+Kolmogorov-Smirnov  0.207929141  0.21790697
+Anderson-Darling    1.073250845    0.0001
+Cramer-von Mises    0.183202508  0.303807449
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         6.805088676  0.000000612
+Sign                       12  0.000000119
+Signed Rank               300  0.000018228
+
+
+                        channel=1
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  grocery
+
+                                                        Moments
+
+N                                 24    Sum Weights                       24
+Mean                       49.510000    Sum Observations         1188.240000
+Std Deviation              34.651707    Variance                 1200.740765
+Skewness                    0.933190    Kurtosis                    0.444056
+Uncorrected SS          86446.800000    Corrected SS            27617.037600
+Coeff Variation            69.989308    Std Error Mean              7.073250
+
+          Basic Statistical Measures           
+
+Location             Variability               
+--------  ---------  -------------  -----------
+Mean      49.510000  Std Deviation    34.651707
+Median    49.575000  Variance       1200.740765
+Mode              .  Range           132.280000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min        4.710000
+1%            4.710000
+5%           10.960000
+10%          13.900000
+25% Q1       19.805000
+50% Median   49.575000
+75% Q3       69.970000
+90%         108.170000
+95%         111.070000
+99%         136.990000
+100% Max    136.990000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value      4.710000  Value      70.410000
+Value     10.960000  Value      82.800000
+Value     13.900000  Value     108.170000
+Value     16.680000  Value     111.070000
+Value     17.830000  Value     136.990000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.915912277  0.047471308
+Kolmogorov-Smirnov  0.142619248  0.661616725
+Anderson-Darling    0.664011487      0.05
+Cramer-von Mises    0.096246986  0.607525156
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         6.999611235  0.000000392
+Sign                       12  0.000000119
+Signed Rank               300  0.000018228
+
+
+                        channel=2
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  fresh
+
+                                                        Moments
+
+N                                 11    Sum Weights                       11
+Mean                       69.671818    Sum Observations          766.390000
+Std Deviation              54.961722    Variance                 3020.790856
+Skewness                    0.646076    Kurtosis                   -0.426753
+Uncorrected SS          83603.693300    Corrected SS            30207.908564
+Coeff Variation            78.886590    Std Error Mean             16.571583
+
+          Basic Statistical Measures           
+
+Location             Variability               
+--------  ---------  -------------  -----------
+Mean      69.671818  Std Deviation    54.961722
+Median    70.570000  Variance       3020.790856
+Mode              .  Range           173.460000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min        2.000000
+1%            2.000000
+5%            2.000000
+10%          14.060000
+25% Q1       21.370000
+50% Median   70.570000
+75% Q3      121.190000
+90%         131.460000
+95%         175.460000
+99%         175.460000
+100% Max    175.460000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value      2.000000  Value      75.880000
+Value     14.060000  Value      81.900000
+Value     21.370000  Value     121.190000
+Value     28.610000  Value     131.460000
+Value     43.890000  Value     175.460000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.939761649  0.517700105
+Kolmogorov-Smirnov  0.139240738  0.963742998
+Anderson-Darling    0.288769295      0.15
+Cramer-von Mises    0.043790068  0.921488065
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         4.204294772  0.001816279
+Sign                      5.5  0.000976562
+Signed Rank                66  0.003345754
+
+
+                        channel=2
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  grocery
+
+                                                        Moments
+
+N                                 11    Sum Weights                       11
+Mean                      147.195455    Sum Observations         1619.150000
+Std Deviation             112.281619    Variance                12607.162067
+Skewness                    1.321715    Kurtosis                    1.174929
+Uncorrected SS         364403.140900    Corrected SS           126071.620673
+Coeff Variation            76.280630    Std Error Mean             33.854182
+
+           Basic Statistical Measures            
+
+Location              Variability                
+--------  ----------  -------------  ------------
+Mean      147.195455  Std Deviation    112.281619
+Median     97.940000  Variance       12607.162067
+Mode               .  Range            351.710000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       45.230000
+1%           45.230000
+5%           45.230000
+10%          46.020000
+25% Q1       52.340000
+50% Median   97.940000
+75% Q3      198.160000
+90%         289.860000
+95%         396.940000
+99%         396.940000
+100% Max    396.940000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     45.230000  Value     109.080000
+Value     46.020000  Value     191.720000
+Value     52.340000  Value     198.160000
+Value     95.680000  Value     289.860000
+Value     96.180000  Value     396.940000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.839972297  0.031554679
+Kolmogorov-Smirnov  0.269233151  0.339580735
+Anderson-Darling    0.730643168     0.025
+Cramer-von Mises    0.127733467  0.471313159
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         4.347925297  0.001448275
+Sign                      5.5  0.000976562
+Signed Rank                66  0.003345754
+

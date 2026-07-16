@@ -1,0 +1,52 @@
+
+                    The STEPDISC Procedure
+                       Method: Stepwise Selection
+
+Class Level Information
+
+Class    Variable   Frequency   Weight   Proportion
+3          3                25      25.00     0.7143
+2          2                 4       4.00     0.1143
+1          1                 6       6.00     0.1714
+
+Stepwise Selection Summary
+
+Number of Variables Selected: 0
+Selected Variables: 
+
+Final Wilks' Lambda = 1.000000
+Observations: 35  Variables Considered: 6
+Class Levels: 3 2 1
+
+                          The DISCRIM Procedure
+
+      Total Sample Size          35    DF Total              34
+      Variables                   6    DF Within Classes     32
+      Classes                     3
+
+                        Prior Probabilities for Classification
+
+                               1           2           3
+
+     Prior                0.1714      0.1143      0.7143
+     Frequency                 6           4          25
+
+                      Class Level Information for Discriminant Analysis
+
+      1: 102.8183  111.9100  129.6000  50.6050  42.4900  22.6133
+      2: 121.7775  23.2900  88.2425  32.2675  50.3525  3.4525
+      3: 126.0060  56.2280  67.0728  26.8092  17.4840  14.5012
+
+               Classification Summary for Calibration Data: Classification Results
+
+           3     0     3
+           0     1     3
+           1     0    24
+
+      Error Count Estimates for Classification Results
+      Total Error Rate: 0.2000
+
+                      Multivariate Discriminant Analysis Statistics
+
+      Wilks' Lambda: 0.6096 (Pr > F = 0.208015)
+

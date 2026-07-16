@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-16T19:20:00Z",
+  "_captured_run_id": "r_ab03c706b20b401ba41cb263df5cf95b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 35 rows from DATALINES.",
+    "NOTE: Wrote wholesale (35 rows, 10 columns).",
+    "NOTE: PROC SORT statement used.",
+    "NOTE: PROC MEANS statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
